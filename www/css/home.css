@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer{
+background-color: #ccc;
+position: absolute;
+bottom: 0;
+width 100%;
+}
+.nav.navbar {
+  position: top;
+  display: flex;
+  flex-wrap: wrap; // allow us to do the line break for collapsing content
+  align-items: center;
+  justify-content: space-between; // space out brand from logo
+  padding: $navbar-padding-y $navbar-padding-x;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
