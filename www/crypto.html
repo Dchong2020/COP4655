@@ -50,21 +50,22 @@
             <li class="nav-item active">
                 <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="currency.html">Crypto Archive</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="crypto.html">Crypto Hub</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Logout</a>
+            </li>
 
         </ul>
-        <!-- Links -->
+
 
     </div>
-    <!-- Collapsible content -->
+
 
 </nav>
 
@@ -72,10 +73,10 @@
     <div class="container-fluid">
         <div class="row" id="allInfo">
 
-            <!-- Sidebar -->
+
             <div class="col-lg-4 animated fadeInLeft">
 
-                <!-- Converter -->
+
                 <div class="row mb-2">
                     <div class="col text-center">
                         <p>
@@ -205,8 +206,13 @@
             <!-- /Detailed Info Panel-->
         </div>
     </div>
-
-    <footer>Darion Chong Z:23520317</footer>
+    <footer> Darion Chong z:23520317</footer>
+    <script>
+    history.pushState(null, null, null);
+    window.addEventListener('popstate', function () {
+        history.pushState(null, null, null);
+    });
+</script>
 </main>
 
 </body>
@@ -223,5 +229,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
 <!-- Currency Stock Market Graph API -->
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+
+<script src="js/login.js"></script>
 <!-- Custom Scripts -->
 <script src="js/crypto.js"></script>
